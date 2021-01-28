@@ -35,7 +35,7 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
 
-          {{-- @if(auth::user()->type == "Admin" or auth::user()->type == "แผนก ผู้จัดการ")
+          @if(auth::user()->type == "Admin" or auth::user()->type == "แผนก ผู้จัดการ")
             <li class="nav-item has-treeview {{ Request::is('BoardMaster/view/1') ? 'menu-open' : '' }}">
               <a href="#" class="nav-link active">
                 <i class="nav-icon fab fa-black-tie"></i>
@@ -53,7 +53,7 @@
                 </li>
               </ul>
             </li>
-          @endif --}}
+          @endif
 
           <li class="nav-item has-treeview {{ Request::is('ResearchCus/view/*') ? 'menu-open' : '' }} {{ Request::is('MasterResearchCus/*/*') ? 'menu-open' : '' }}">
             <a href="#" class="nav-link active">
@@ -154,7 +154,7 @@
             </ul>
           </li>
 
-          {{-- <li class="nav-item has-treeview {{ Request::is('reportcar/viewreport/3') ? 'menu-open' : '' }} {{ Request::is('reportcar/viewreport/4') ? 'menu-open' : '' }} {{ Request::is('reportcar/viewreport/5') ? 'menu-open' : '' }} {{ Request::is('reportcar/viewreport/6') ? 'menu-open' : '' }}">
+          <li class="nav-item has-treeview {{ Request::is('reportcar/viewreport/3') ? 'menu-open' : '' }} {{ Request::is('reportcar/viewreport/4') ? 'menu-open' : '' }} {{ Request::is('reportcar/viewreport/5') ? 'menu-open' : '' }} {{ Request::is('reportcar/viewreport/6') ? 'menu-open' : '' }}">
             <a href="#" class="nav-link active">
               <i class="nav-icon far fa-file-alt"></i>
               <p>
@@ -190,7 +190,7 @@
                 </li>
               </ul>
             @endif
-          </li> --}}
+          </li>
         </ul>
       </nav>
     </div>
