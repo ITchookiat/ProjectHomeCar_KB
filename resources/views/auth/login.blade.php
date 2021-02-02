@@ -71,7 +71,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-6">
-                                    <a href="http://192.168.200.9/Projectleasing/public" class="btn btn-danger btn-block" >Home</a>
+                                    <a href="http://203.150.32.16/Projectleasing_KB/public" class="btn btn-danger btn-block" >Home</a>
                                 </div>
                                 <div class="col-6">
                                     <button type="submit" class="btn btn-primary btn-block">Sign In</button>
